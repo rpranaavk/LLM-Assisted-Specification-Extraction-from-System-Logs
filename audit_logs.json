@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2024-01-20T09:00:00Z",
+    "user_id": "alice_admin",
+    "role": "admin",
+    "action": "READ",
+    "resource": "/api/v1/system_config",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2024-01-20T09:15:00Z",
+    "user_id": "bob_dev",
+    "role": "developer",
+    "action": "WRITE",
+    "resource": "/api/v1/staging/app_data",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2024-01-20T10:00:00Z",
+    "user_id": "charlie_intern",
+    "role": "intern",
+    "action": "READ",
+    "resource": "/api/v1/staging/logs",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2024-01-20T10:30:00Z",
+    "user_id": "charlie_intern",
+    "role": "intern",
+    "action": "DELETE",
+    "resource": "/api/v1/prod/users",
+    "status": "SUCCESS"
+  }
+]
